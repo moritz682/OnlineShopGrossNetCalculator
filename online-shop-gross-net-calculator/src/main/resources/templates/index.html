@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+	<head>
+		<meta charset="UTF-8">
+		<title>Online shop Gross/Net calculator</title>
+		<link rel="stylesheet" th:href="@{/stylesheet.css}">
+	</head>
+	<body>
+		<h1>Online shop gross/net calculator</h1>
+		<div class="main-container">
+			<form class="form-container">
+				<label for="grossAmountInput">Input gross amount: </label>
+				<input id="grossAmountInput" name="grossAmountInput" type="number"/>
+				<label for="ebayCategorie">Select ebay categorie: </label>
+				<select id="ebayCategorie" name="ebayCategorie"></select>
+				<label for="salesTaxInput">Insert sales tax: </label>
+				<input id="salesTaxInput" name="salesTaxInput" type="number"/>
+			</form>
+		</div>
+	</body>
+</html>

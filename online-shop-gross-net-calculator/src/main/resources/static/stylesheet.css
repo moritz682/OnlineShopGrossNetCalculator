@@ -1,0 +1,14 @@
+body {
+	font-family: "Arial";
+}
+
+.main-container {
+	display: grid;
+	grid-template-columns: 30%;
+}
+
+.form-container {
+    display: grid;
+    grid-template-columns: 40% 50%;
+    row-gap: 10px;
+}
